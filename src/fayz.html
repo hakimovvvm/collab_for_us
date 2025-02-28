@@ -1,11 +1,610 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <p>vrvrrv</p>
-</body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <nav
+      class="px-[20px] lg:px-[100px] h-[10vh] bg-white flex items-center justify-between"
+    >
+      <div class="logo w-[30%] lg:w-[10%] h-[50%]">
+        <img src="./Logo.png" alt="" class="w-[100%] h-[100%]" />
+      </div>
+      <input
+        type="text"
+        class="hidden lg:block w-[30%] h-[60%] rounded-[7px] border-solid border-[1px] border-slate-400 px-[20px] text"
+        placeholder="Search bar"
+      />
+      <div
+        class="navig hidden lg:flex w-[50%] h-[80%] items-center justify-around"
+      >
+        <a href="" class="font-bold">Category</a>
+        <a href="" class="text-[#1C3554]">Become an Mentor</a>
+        <button
+          class="w-[20%] h-[90%] rounded-[10px] font-bold border-solid border-[1px] border-blue-950"
+        >
+          Login
+        </button>
+        <button
+          class="w-[23%] h-[90%] text-white bg-pink-500 rounded-[10px] font-bold"
+        >
+          Login
+        </button>
+      </div>
+      <div
+        class="BAR w-[10%] h-[50%] flex items-center justify-center text-[30px] lg:hidden"
+      >
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <section
+      class="px-[20px] py-[40px] lg:px-[100px] xs:flex xs:flex-wrap bg-white"
+    >
+      <div class="texts">
+        <p class="font-bold">Home>Programming Courses</p>
+        <h1
+          class="text-[40px] mt-[20px] lg:text-[60px] lg:text-start text-[#1C3554] font-bold mb-[20px]"
+        >
+          Programming Courses
+        </h1>
+        <p class="lg:w-[40%] mb-[20px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+          purus sit amet luctus venenatis, lectus magna fringilla urna,
+          porttitor rhoncus
+        </p>
+        <h2 class="text-[20px] font-bold">Most Popular Development Courses</h2>
+      </div>
+      <div
+        class="boxes flex flex-wrap justify-center w-[100%] py-[30px] gap-10 lg:gap-3"
+      >
+        <div
+          class="box w-[90%] lg:w-[23%] px-[20px] py-[20px] h-[400px] bg-slate-100 rounded-[10px]"
+        >
+          <div class="img w-[100%] h-[55%] bg-slate-500 rounded-[10px]"></div>
+          <p class="font-bold text-[17px]">
+            Interpersonal skills - work better with others!
+          </p>
+          <p class="text-red-600">Tanah Air Team</p>
+          <div class="stars w-[45%] h-[10%] flex items-center">
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p>(2078)</p>
+          </div>
+          <p class="font-bold">$384</p>
+        </div>
+        <div
+          class="box w-[90%] lg:w-[23%] px-[20px] py-[20px] h-[400px] bg-slate-100 rounded-[10px]"
+        >
+          <div class="img w-[100%] h-[55%] bg-slate-500 rounded-[10px]"></div>
+          <p class="font-bold text-[17px]">
+            Interpersonal skills - work better with others!
+          </p>
+          <p class="text-red-600">Tanah Air Team</p>
+          <div class="stars w-[45%] h-[10%] flex items-center">
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p>(2078)</p>
+          </div>
+          <p class="font-bold">$384</p>
+        </div>
+        <div
+          class="box w-[90%] lg:w-[23%] px-[20px] py-[20px] h-[400px] bg-slate-100 rounded-[10px]"
+        >
+          <div class="img w-[100%] h-[55%] bg-slate-500 rounded-[10px]"></div>
+          <p class="font-bold text-[17px]">
+            Interpersonal skills - work better with others!
+          </p>
+          <p class="text-red-600">Tanah Air Team</p>
+          <div class="stars w-[45%] h-[10%] flex items-center">
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p>(2078)</p>
+          </div>
+          <p class="font-bold">$384</p>
+        </div>
+        <div
+          class="box w-[90%] lg:w-[23%] px-[20px] py-[20px] h-[400px] bg-slate-100 rounded-[10px]"
+        >
+          <div class="img w-[100%] h-[55%] bg-slate-500 rounded-[10px]"></div>
+          <p class="font-bold text-[17px]">
+            Interpersonal skills - work better with others!
+          </p>
+          <p class="text-red-600">Tanah Air Team</p>
+          <div class="stars w-[45%] h-[10%] flex items-center">
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p>(2078)</p>
+          </div>
+          <p class="font-bold">$384</p>
+        </div>
+      </div>
+      <div
+        class="boxes flex flex-wrap justify-center w-[100%] py-[30px] gap-10 lg:gap-3"
+      >
+        <div
+          class="box w-[90%] lg:w-[23%] px-[20px] py-[20px] h-[400px] bg-gray-500 rounded-[10px]"
+        >
+          <p class="font-bold text-center mt-[300px] text-[30px] text-white">
+            Phyton
+          </p>
+        </div>
+        <div
+          class="box w-[90%] lg:w-[23%] px-[20px] py-[20px] h-[400px] bg-gray-500 rounded-[10px]"
+        >
+          <p class="font-bold text-center mt-[300px] text-[30px] text-white">
+            Javascript
+          </p>
+        </div>
+        <div
+          class="box w-[90%] lg:w-[23%] px-[20px] py-[20px] h-[400px] bg-gray-500 rounded-[10px]"
+        >
+          <p class="font-bold text-center mt-[300px] text-[30px] text-white">
+            CSS
+          </p>
+        </div>
+        <div
+          class="box w-[90%] lg:w-[23%] px-[20px] py-[20px] h-[400px] bg-gray-500 rounded-[10px]"
+        >
+          <p class="font-bold text-center mt-[300px] text-[30px] text-white">
+            C#
+          </p>
+        </div>
+        <div
+          class="box w-[90%] lg:w-[23%] px-[20px] py-[20px] h-[400px] bg-gray-500 rounded-[10px]"
+        >
+          <p class="font-bold text-center mt-[250px] text-[30px] text-white">
+            Web Development
+          </p>
+        </div>
+        <div
+          class="box w-[90%] lg:w-[23%] px-[20px] py-[20px] h-[400px] bg-gray-500 rounded-[10px]"
+        >
+          <p class="font-bold text-center mt-[300px] text-[30px] text-white">
+            Data Science
+          </p>
+        </div>
+        <div
+          class="box w-[90%] lg:w-[23%] px-[20px] py-[20px] h-[400px] bg-gray-500 rounded-[10px]"
+        >
+          <p class="font-bold text-center mt-[300px] text-[30px] text-white">
+            Java
+          </p>
+        </div>
+        <div
+          class="box w-[90%] lg:w-[23%] px-[20px] py-[20px] h-[400px] bg-gray-500 rounded-[10px]"
+        >
+          <p class="font-bold text-center mt-[300px] text-[30px] text-white">
+            SQL
+          </p>
+        </div>
+      </div>
+    </section>
+    <main
+      class="px-[20px] py-[40px] lg:justify-between lg:px-[100px] flex xs:flex xs:flex-wrap bg-white"
+    >
+      <aside
+        class="hidden lg:flex flex-wrap justify-center w-[25%] py-[0px] border-r-[1px] border-r-solid border-r-gray-400"
+      >
+      <h1 class="text-[40px] font-bold">All Courses</h1>
+        <div class="BOX w-[100%] h-[250px] flex flex-col gap-2 border-b-[1px] border-b-solid border-b-gray-400">
+          <h2 class="font-bold">Ratings</h2>
+          <div class="stars h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2">5+ (2078)</p>
+          </div>
+          <div class="stars  h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2">4+ (2078)</p>
+          </div>
+          <div class="stars h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2">3+ (2078)</p>
+          </div>
+          <div class="stars  h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2"> 2+ (2078)</p>
+          </div>
+          <div class="stars h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2">1+ (2078)</p>
+          </div>
+        </div>
+        <div class="BOX w-[100%] h-[250px]  flex flex-col gap-2 border-b-[1px] border-b-solid border-b-gray-400">
+          <h2 class="font-bold">Ratings</h2>
+          <div class="stars h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2">5+ (2078)</p>
+          </div>
+          <div class="stars  h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2">4+ (2078)</p>
+          </div>
+          <div class="stars h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2">3+ (2078)</p>
+          </div>
+          <div class="stars  h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2"> 2+ (2078)</p>
+          </div>
+          <div class="stars h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2">1+ (2078)</p>
+          </div>
+        </div>
+        <div class="BOX w-[100%] h-[250px]  flex flex-col gap-2 border-b-[1px] border-b-solid border-b-gray-400">
+          <h2 class="font-bold">Ratings</h2>
+          <div class="stars h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2">5+ (2078)</p>
+          </div>
+          <div class="stars  h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2">4+ (2078)</p>
+          </div>
+          <div class="stars h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2">3+ (2078)</p>
+          </div>
+          <div class="stars  h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2"> 2+ (2078)</p>
+          </div>
+          <div class="stars h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2">1+ (2078)</p>
+          </div>
+        </div>
+        <div class="BOX w-[100%] h-[250px] flex flex-col gap-2 border-b-[1px] border-b-solid border-b-gray-400">
+          <h2 class="font-bold">Ratings</h2>
+          <div class="stars h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2">5+ (2078)</p>
+          </div>
+          <div class="stars  h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2">4+ (2078)</p>
+          </div>
+          <div class="stars h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2">3+ (2078)</p>
+          </div>
+          <div class="stars  h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2"> 2+ (2078)</p>
+          </div>
+          <div class="stars h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2">1+ (2078)</p>
+          </div>
+        </div>
+        <div class="BOX w-[100%] h-[250px] flex flex-col gap-2">
+          <h2 class="font-bold">Ratings</h2>
+          <div class="stars h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2">5+ (2078)</p>
+          </div>
+          <div class="stars  h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2">4+ (2078)</p>
+          </div>
+          <div class="stars h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2">3+ (2078)</p>
+          </div>
+          <div class="stars  h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2"> 2+ (2078)</p>
+          </div>
+          <div class="stars h-[10%] flex items-center">
+            <i class="fa-regular fa-square-check" style="color: #878787;"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <p class="ml-2">1+ (2078)</p>
+          </div>
+        </div>
+      </aside>
+      <aside class="lg:w-[73%]">
+        <div
+          class="boxes flex flex-wrap justify-center w-[100%] py-[30px] gap-10 lg:gap-3"
+        >
+          <div
+            class="box w-[90%] lg:w-[30%] px-[20px] py-[20px] h-[400px] bg-slate-100 rounded-[10px]"
+          >
+            <div class="img w-[100%] h-[55%] bg-slate-500 rounded-[10px]"></div>
+            <p class="font-bold text-[17px]">
+              Interpersonal skills - work better with others!
+            </p>
+            <p class="text-red-600">Tanah Air Team</p>
+            <div class="stars w-[45%] h-[10%] flex items-center">
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <p>(2078)</p>
+            </div>
+            <p class="font-bold">$384</p>
+          </div>
+          <div
+            class="box w-[90%] lg:w-[30%] px-[20px] py-[20px] h-[400px] bg-slate-100 rounded-[10px]"
+          >
+            <div class="img w-[100%] h-[55%] bg-slate-500 rounded-[10px]"></div>
+            <p class="font-bold text-[17px]">
+              Interpersonal skills - work better with others!
+            </p>
+            <p class="text-red-600">Tanah Air Team</p>
+            <div class="stars w-[45%] h-[10%] flex items-center">
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <p>(2078)</p>
+            </div>
+            <p class="font-bold">$384</p>
+          </div>
+          <div
+            class="box w-[100%] lg:w-[30%] px-[20px] py-[20px] h-[400px] bg-slate-100 rounded-[10px]"
+          >
+            <div class="img w-[100%] h-[55%] bg-slate-500 rounded-[10px]"></div>
+            <p class="font-bold text-[17px]">
+              Interpersonal skills - work better with others!
+            </p>
+            <p class="text-red-600">Tanah Air Team</p>
+            <div class="stars w-[45%] h-[10%] flex items-center">
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <p>(2078)</p>
+            </div>
+            <p class="font-bold">$384</p>
+          </div>
+          <div
+            class="box w-[90%] lg:w-[30%] px-[20px] py-[20px] h-[400px] bg-slate-100 rounded-[10px]"
+          >
+            <div class="img w-[100%] h-[55%] bg-slate-500 rounded-[10px]"></div>
+            <p class="font-bold text-[17px]">
+              Interpersonal skills - work better with others!
+            </p>
+            <p class="text-red-600">Tanah Air Team</p>
+            <div class="stars w-[45%] h-[10%] flex items-center">
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <p>(2078)</p>
+            </div>
+            <p class="font-bold">$384</p>
+          </div>
+          <div
+            class="box w-[90%] lg:w-[30%] px-[20px] py-[20px] h-[400px] bg-slate-100 rounded-[10px]"
+          >
+            <div class="img w-[100%] h-[55%] bg-slate-500 rounded-[10px]"></div>
+            <p class="font-bold text-[17px]">
+              Interpersonal skills - work better with others!
+            </p>
+            <p class="text-red-600">Tanah Air Team</p>
+            <div class="stars w-[45%] h-[10%] flex items-center">
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <p>(2078)</p>
+            </div>
+            <p class="font-bold">$384</p>
+          </div>
+          <div
+            class="box w-[90%] lg:w-[30%] px-[20px] py-[20px] h-[400px] bg-slate-100 rounded-[10px]"
+          >
+            <div class="img w-[100%] h-[55%] bg-slate-500 rounded-[10px]"></div>
+            <p class="font-bold text-[17px]">
+              Interpersonal skills - work better with others!
+            </p>
+            <p class="text-red-600">Tanah Air Team</p>
+            <div class="stars w-[45%] h-[10%] flex items-center">
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <p>(2078)</p>
+            </div>
+            <p class="font-bold">$384</p>
+          </div>
+          <div
+            class="box w-[90%] lg:w-[30%] px-[20px] py-[20px] h-[400px] bg-slate-100 rounded-[10px]"
+          >
+            <div class="img w-[100%] h-[55%] bg-slate-500 rounded-[10px]"></div>
+            <p class="font-bold text-[17px]">
+              Interpersonal skills - work better with others!
+            </p>
+            <p class="text-red-600">Tanah Air Team</p>
+            <div class="stars w-[45%] h-[10%] flex items-center">
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <p>(2078)</p>
+            </div>
+            <p class="font-bold">$384</p>
+          </div>
+          <div
+            class="box w-[90%] lg:w-[30%] px-[20px] py-[20px] h-[400px] bg-slate-100 rounded-[10px]"
+          >
+            <div class="img w-[100%] h-[55%] bg-slate-500 rounded-[10px]"></div>
+            <p class="font-bold text-[17px]">
+              Interpersonal skills - work better with others!
+            </p>
+            <p class="text-red-600">Tanah Air Team</p>
+            <div class="stars w-[45%] h-[10%] flex items-center">
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <p>(2078)</p>
+            </div>
+            <p class="font-bold">$384</p>
+          </div>
+          <div
+            class="box w-[90%] lg:w-[30%] px-[20px] py-[20px] h-[400px] bg-slate-100 rounded-[10px]"
+          >
+            <div class="img w-[100%] h-[55%] bg-slate-500 rounded-[10px]"></div>
+            <p class="font-bold text-[17px]">
+              Interpersonal skills - work better with others!
+            </p>
+            <p class="text-red-600">Tanah Air Team</p>
+            <div class="stars w-[45%] h-[10%] flex items-center">
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <p>(2078)</p>
+            </div>
+            <p class="font-bold">$384</p>
+          </div>
+        </div>
+      </aside>
+    </main>
+    <footer class="bg-[#021934] md:p-[80px] lg:px-[100px] p-3 mt-[20px] text-white">
+      <section class="md:flex-row flex flex-col  md:justify-between gap-[20px] ">
+          <section class=" flex flex-col items-start md:w-[40%] gap-[40px] md:text-[22px]">
+              <img src="./Logo footer.png" alt="">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet tristique placerat eleifend aliquam
+                  pellentesque facilisis ultrices. Imperdiet mus urna egestas at tellus.
+              </p>
+          </section>
+          <section class="md:flex-row flex md:justify-evenly md:w-[60%] flex-wrap gap-[10px]">
+              <ul class=" w-[30%]">
+                  <li>About</li>
+                  <li>About us</li>
+                  <li>Courses</li>
+                  <li>Mentor</li>
+                  <li>Contact Us</li>
+              </ul>
+              <ul class=" w-[30%]">
+                  <li>Support</li>
+                  <li>Careers</li>
+                  <li>Help & Support</li>
+                  <li>Blog</li>
+              </ul>
+              <ul class=" w-[30%]">
+                  <li>Company</li>
+                  <li>Privacy Policy</li>
+                  <li>Terms of Service</li>
+                  <li>Code of Conduct</li>
+              </ul>
+          </section>
+      </section>
+      <section class=" flex justify-between mt-[80px]">
+          <aside class="gap-[40px] hidden md:flex">
+              <p>Privacy Policy</p>
+              <p>Terms and Condition</p>
+          </aside>
+          <p class="text-center md:text-start">@2020 TanahAir Studio. All rights reserved.</p>
+      </section>
+  </footer>
+  </body>
 </html>
